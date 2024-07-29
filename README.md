@@ -32,5 +32,4 @@ To implement this component, simply include the HTML and CSS from the `newslette
 
 ## Access
 
-View the live demo of the newsletter subscription component here:
-[https://tailwind-css-component-e-commerce-products-gallery.eliottdelhaye.com/](https://tailwind-css-component-e-commerce-products-gallery.eliottdelhaye.com/)
+View the live demo of the newsletter subscription component here: https://eliottdelhaye.github.io/TailwindCSS-Component-Newsletter-Subscription-Component/
