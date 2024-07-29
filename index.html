@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <section
+      class="flex flex-col items-center p-10 bg-slate-800 text-white text-center"
+    >
+      <h1 class="text-3xl font-extrabold tracking-tight">
+        Receive a free gitf 🎁
+      </h1>
+      <p class="text-gray-300 mt-3 text-lg leading-6">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas,
+        incidunt!
+      </p>
+      <form class="w-full max-w-xl py-5 flex gap-2 flex-col sm:flex-row">
+        <label for="email-address" class="sr-only">Email address</label>
+        <input
+          name="email-address"
+          type="email"
+          id="email-address"
+          required
+          class="h-12 rounded-md sm:w-3/4 px-4 text-black"
+          placeholder="Enter your email"
+        />
+        <button
+          class="h-12 sm:w-1/4 bg-gradient-to-r from-indigo-500 to-indigo-400 rounded-md"
+        >
+          Subscribe
+        </button>
+      </form>
+      <p class="text-sm">
+        We are not going to spam you
+        <a class="underline font-medium" href="#">Privacy Policy.</a>
+      </p>
+    </section>
+  </body>
+</html>
